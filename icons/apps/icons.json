@@ -1,22 +1,167 @@
 {
-  "description": "Iconos de aplicaciones y servicios para correos y documentos MYSOC. PNG 160x160 con fondo transparente; los SVG fuente (cuando existen) estan en svg-source/.",
   "base_url": "https://assets.mysoc.cl/icons/apps/",
+  "description": "Iconos de aplicaciones para correos y documentos MYSOC. <name>.png = recortado y normalizado por ALTURA (150px); su ancho varia segun la forma del glifo, por lo que al usarlo se debe escalar con height=<alto deseado> y width=round(height*aspect). square/<name>.png = version en lienzo cuadrado 160x160 (uso generico, no para alinear con botones).",
   "icons": {
-    "outlook":       {"file": "outlook.png",       "label": "Microsoft Outlook",   "categoria": "m365"},
-    "sharepoint":    {"file": "sharepoint.png",    "label": "Microsoft SharePoint","categoria": "m365"},
-    "onedrive":      {"file": "onedrive.png",      "label": "Microsoft OneDrive",  "categoria": "m365"},
-    "teams":         {"file": "teams.png",         "label": "Microsoft Teams",     "categoria": "m365"},
-    "microsoft-365": {"file": "microsoft-365.png", "label": "Microsoft 365",       "categoria": "m365"},
-    "google-drive":  {"file": "google-drive.png",  "label": "Google Drive",        "categoria": "google"},
-    "google-docs":   {"file": "google-docs.png",   "label": "Google Docs",         "categoria": "google"},
-    "google-sheets": {"file": "google-sheets.png", "label": "Google Sheets",       "categoria": "google"},
-    "google-slides": {"file": "google-slides.png", "label": "Google Slides",       "categoria": "google"},
-    "rustdesk":      {"file": "rustdesk.png",      "label": "RustDesk",            "categoria": "soporte"},
-    "wireguard":     {"file": "wireguard.png",     "label": "WireGuard",           "categoria": "red"},
-    "windows":       {"file": "windows.png",       "label": "Windows",             "categoria": "so"},
-    "macos":         {"file": "macos.png",         "label": "macOS",               "categoria": "so"},
-    "ubuntu":        {"file": "ubuntu.png",        "label": "Ubuntu",              "categoria": "so"},
-    "unifi":         {"file": "unifi.png",         "label": "Ubiquiti UniFi",      "categoria": "red"},
-    "pfsense":       {"file": "pfsense.png",       "label": "pfSense",             "categoria": "red"}
-  }
+    "google-docs": {
+      "aspect": 0.7267,
+      "categoria": "google",
+      "file": "google-docs.png",
+      "h": 150,
+      "label": "Google Docs",
+      "square_file": "square/google-docs.png",
+      "svg_source": null,
+      "w": 109
+    },
+    "google-drive": {
+      "aspect": 1.1267,
+      "categoria": "google",
+      "file": "google-drive.png",
+      "h": 150,
+      "label": "Google Drive",
+      "square_file": "square/google-drive.png",
+      "svg_source": null,
+      "w": 169
+    },
+    "google-sheets": {
+      "aspect": 0.7267,
+      "categoria": "google",
+      "file": "google-sheets.png",
+      "h": 150,
+      "label": "Google Sheets",
+      "square_file": "square/google-sheets.png",
+      "svg_source": null,
+      "w": 109
+    },
+    "google-slides": {
+      "aspect": 0.7267,
+      "categoria": "google",
+      "file": "google-slides.png",
+      "h": 150,
+      "label": "Google Slides",
+      "square_file": "square/google-slides.png",
+      "svg_source": null,
+      "w": 109
+    },
+    "macos": {
+      "aspect": 0.8133,
+      "categoria": "so",
+      "file": "macos.png",
+      "h": 150,
+      "label": "macOS",
+      "square_file": "square/macos.png",
+      "svg_source": null,
+      "w": 122
+    },
+    "microsoft-365": {
+      "aspect": 0.9067,
+      "categoria": "m365",
+      "file": "microsoft-365.png",
+      "h": 150,
+      "label": "Microsoft 365",
+      "square_file": "square/microsoft-365.png",
+      "svg_source": null,
+      "w": 136
+    },
+    "onedrive": {
+      "aspect": 1.4533,
+      "categoria": "m365",
+      "file": "onedrive.png",
+      "h": 150,
+      "label": "Microsoft OneDrive",
+      "square_file": "square/onedrive.png",
+      "svg_source": null,
+      "w": 218
+    },
+    "outlook": {
+      "aspect": 1.0667,
+      "categoria": "m365",
+      "file": "outlook.png",
+      "h": 150,
+      "label": "Microsoft Outlook",
+      "square_file": "square/outlook.png",
+      "svg_source": null,
+      "w": 160
+    },
+    "pfsense": {
+      "aspect": 1.0,
+      "categoria": "red",
+      "file": "pfsense.png",
+      "h": 150,
+      "label": "pfSense",
+      "square_file": "square/pfsense.png",
+      "svg_source": "svg-source/pfsense.svg",
+      "w": 150
+    },
+    "rustdesk": {
+      "aspect": 1.0,
+      "categoria": "soporte",
+      "file": "rustdesk.png",
+      "h": 150,
+      "label": "RustDesk",
+      "square_file": "square/rustdesk.png",
+      "svg_source": "svg-source/rustdesk.svg",
+      "w": 150
+    },
+    "sharepoint": {
+      "aspect": 1.0133,
+      "categoria": "m365",
+      "file": "sharepoint.png",
+      "h": 150,
+      "label": "Microsoft SharePoint",
+      "square_file": "square/sharepoint.png",
+      "svg_source": null,
+      "w": 152
+    },
+    "teams": {
+      "aspect": 1.0667,
+      "categoria": "m365",
+      "file": "teams.png",
+      "h": 150,
+      "label": "Microsoft Teams",
+      "square_file": "square/teams.png",
+      "svg_source": null,
+      "w": 160
+    },
+    "ubuntu": {
+      "aspect": 1.0,
+      "categoria": "so",
+      "file": "ubuntu.png",
+      "h": 150,
+      "label": "Ubuntu",
+      "square_file": "square/ubuntu.png",
+      "svg_source": null,
+      "w": 150
+    },
+    "unifi": {
+      "aspect": 1.0,
+      "categoria": "red",
+      "file": "unifi.png",
+      "h": 150,
+      "label": "Ubiquiti UniFi",
+      "square_file": "square/unifi.png",
+      "svg_source": "svg-source/unifi.svg",
+      "w": 150
+    },
+    "windows": {
+      "aspect": 1.0,
+      "categoria": "so",
+      "file": "windows.png",
+      "h": 150,
+      "label": "Windows",
+      "square_file": "square/windows.png",
+      "svg_source": null,
+      "w": 150
+    },
+    "wireguard": {
+      "aspect": 1.0,
+      "categoria": "red",
+      "file": "wireguard.png",
+      "h": 150,
+      "label": "WireGuard",
+      "square_file": "square/wireguard.png",
+      "svg_source": "svg-source/wireguard.svg",
+      "w": 150
+    }
+  },
+  "render_hint": "height=46 y width=round(46*aspect) iguala la altura del boton del correo MYSOC (46px)."
 }
