@@ -1,0 +1,22 @@
+{
+  "description": "Iconos de aplicaciones y servicios para correos y documentos MYSOC. PNG 160x160 con fondo transparente; los SVG fuente (cuando existen) estan en svg-source/.",
+  "base_url": "https://assets.mysoc.cl/icons/apps/",
+  "icons": {
+    "outlook":       {"file": "outlook.png",       "label": "Microsoft Outlook",   "categoria": "m365"},
+    "sharepoint":    {"file": "sharepoint.png",    "label": "Microsoft SharePoint","categoria": "m365"},
+    "onedrive":      {"file": "onedrive.png",      "label": "Microsoft OneDrive",  "categoria": "m365"},
+    "teams":         {"file": "teams.png",         "label": "Microsoft Teams",     "categoria": "m365"},
+    "microsoft-365": {"file": "microsoft-365.png", "label": "Microsoft 365",       "categoria": "m365"},
+    "google-drive":  {"file": "google-drive.png",  "label": "Google Drive",        "categoria": "google"},
+    "google-docs":   {"file": "google-docs.png",   "label": "Google Docs",         "categoria": "google"},
+    "google-sheets": {"file": "google-sheets.png", "label": "Google Sheets",       "categoria": "google"},
+    "google-slides": {"file": "google-slides.png", "label": "Google Slides",       "categoria": "google"},
+    "rustdesk":      {"file": "rustdesk.png",      "label": "RustDesk",            "categoria": "soporte"},
+    "wireguard":     {"file": "wireguard.png",     "label": "WireGuard",           "categoria": "red"},
+    "windows":       {"file": "windows.png",       "label": "Windows",             "categoria": "so"},
+    "macos":         {"file": "macos.png",         "label": "macOS",               "categoria": "so"},
+    "ubuntu":        {"file": "ubuntu.png",        "label": "Ubuntu",              "categoria": "so"},
+    "unifi":         {"file": "unifi.png",         "label": "Ubiquiti UniFi",      "categoria": "red"},
+    "pfsense":       {"file": "pfsense.png",       "label": "pfSense",             "categoria": "red"}
+  }
+}
