@@ -1,167 +1,279 @@
 {
   "base_url": "https://assets.mysoc.cl/icons/apps/",
-  "description": "Iconos de aplicaciones para correos y documentos MYSOC. <name>.png = recortado y normalizado por ALTURA (150px); su ancho varia segun la forma del glifo, por lo que al usarlo se debe escalar con height=<alto deseado> y width=round(height*aspect). square/<name>.png = version en lienzo cuadrado 160x160 (uso generico, no para alinear con botones).",
+  "description": "Iconos de aplicaciones para correos y documentos MYSOC. <name>.png = LIENZO SIEMPRE CUADRADO 184x184 con el glifo centrado y escalado armonicamente (sin deformacion). Para usarlo en un boton se renderiza con width=<alto_deseado> y height=<alto_deseado> (1:1), p.ej. 46x46 junto al botón del correo MYSOC. square/<name>.png = version cuadrada 160x160 para uso generico.",
   "icons": {
     "google-docs": {
-      "aspect": 0.7267,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "google",
       "file": "google-docs.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 125,
+        "x": 29,
+        "y": 6
+      },
       "label": "Google Docs",
       "square_file": "square/google-docs.png",
-      "svg_source": null,
-      "w": 109
+      "svg_source": null
     },
     "google-drive": {
-      "aspect": 1.1267,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "google",
       "file": "google-drive.png",
-      "h": 150,
+      "glyph": {
+        "h": 152,
+        "w": 172,
+        "x": 6,
+        "y": 16
+      },
       "label": "Google Drive",
       "square_file": "square/google-drive.png",
-      "svg_source": null,
-      "w": 169
+      "svg_source": null
     },
     "google-sheets": {
-      "aspect": 0.7267,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "google",
       "file": "google-sheets.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 125,
+        "x": 29,
+        "y": 6
+      },
       "label": "Google Sheets",
       "square_file": "square/google-sheets.png",
-      "svg_source": null,
-      "w": 109
+      "svg_source": null
     },
     "google-slides": {
-      "aspect": 0.7267,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "google",
       "file": "google-slides.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 125,
+        "x": 29,
+        "y": 6
+      },
       "label": "Google Slides",
       "square_file": "square/google-slides.png",
-      "svg_source": null,
-      "w": 109
+      "svg_source": null
     },
     "macos": {
-      "aspect": 0.8133,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "so",
       "file": "macos.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 140,
+        "x": 22,
+        "y": 6
+      },
       "label": "macOS",
       "square_file": "square/macos.png",
-      "svg_source": null,
-      "w": 122
+      "svg_source": null
     },
     "microsoft-365": {
-      "aspect": 0.9067,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "m365",
       "file": "microsoft-365.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 156,
+        "x": 14,
+        "y": 6
+      },
       "label": "Microsoft 365",
       "square_file": "square/microsoft-365.png",
-      "svg_source": null,
-      "w": 136
+      "svg_source": null
     },
     "onedrive": {
-      "aspect": 1.4533,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "m365",
       "file": "onedrive.png",
-      "h": 150,
+      "glyph": {
+        "h": 118,
+        "w": 172,
+        "x": 6,
+        "y": 33
+      },
       "label": "Microsoft OneDrive",
       "square_file": "square/onedrive.png",
-      "svg_source": null,
-      "w": 218
+      "svg_source": null
     },
     "outlook": {
-      "aspect": 1.0667,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "m365",
       "file": "outlook.png",
-      "h": 150,
+      "glyph": {
+        "h": 161,
+        "w": 172,
+        "x": 6,
+        "y": 11
+      },
       "label": "Microsoft Outlook",
       "square_file": "square/outlook.png",
-      "svg_source": null,
-      "w": 160
+      "svg_source": null
     },
     "pfsense": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "red",
       "file": "pfsense.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "pfSense",
       "square_file": "square/pfsense.png",
-      "svg_source": "svg-source/pfsense.svg",
-      "w": 150
+      "svg_source": "svg-source/pfsense.svg"
     },
     "rustdesk": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "soporte",
       "file": "rustdesk.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "RustDesk",
       "square_file": "square/rustdesk.png",
-      "svg_source": "svg-source/rustdesk.svg",
-      "w": 150
+      "svg_source": "svg-source/rustdesk.svg"
     },
     "sharepoint": {
-      "aspect": 1.0133,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "m365",
       "file": "sharepoint.png",
-      "h": 150,
+      "glyph": {
+        "h": 170,
+        "w": 172,
+        "x": 6,
+        "y": 7
+      },
       "label": "Microsoft SharePoint",
       "square_file": "square/sharepoint.png",
-      "svg_source": null,
-      "w": 152
+      "svg_source": null
     },
     "teams": {
-      "aspect": 1.0667,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "m365",
       "file": "teams.png",
-      "h": 150,
+      "glyph": {
+        "h": 161,
+        "w": 172,
+        "x": 6,
+        "y": 11
+      },
       "label": "Microsoft Teams",
       "square_file": "square/teams.png",
-      "svg_source": null,
-      "w": 160
+      "svg_source": null
     },
     "ubuntu": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "so",
       "file": "ubuntu.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "Ubuntu",
       "square_file": "square/ubuntu.png",
-      "svg_source": null,
-      "w": 150
+      "svg_source": null
     },
     "unifi": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "red",
       "file": "unifi.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "Ubiquiti UniFi",
       "square_file": "square/unifi.png",
-      "svg_source": "svg-source/unifi.svg",
-      "w": 150
+      "svg_source": "svg-source/unifi.svg"
     },
     "windows": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "so",
       "file": "windows.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "Windows",
       "square_file": "square/windows.png",
-      "svg_source": null,
-      "w": 150
+      "svg_source": null
     },
     "wireguard": {
-      "aspect": 1.0,
+      "canvas": {
+        "h": 184,
+        "w": 184
+      },
       "categoria": "red",
       "file": "wireguard.png",
-      "h": 150,
+      "glyph": {
+        "h": 172,
+        "w": 172,
+        "x": 6,
+        "y": 6
+      },
       "label": "WireGuard",
       "square_file": "square/wireguard.png",
-      "svg_source": "svg-source/wireguard.svg",
-      "w": 150
+      "svg_source": "svg-source/wireguard.svg"
     }
   },
-  "render_hint": "height=46 y width=round(46*aspect) iguala la altura del boton del correo MYSOC (46px)."
+  "render_hint": "Lienzo 184x184 cuadrado y glifo armonizado: usar width=46 height=46 (relacion 1:1) para que el icono tenga la misma altura que el boton y SIN deformacion."
 }
