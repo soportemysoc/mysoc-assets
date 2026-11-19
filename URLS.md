@@ -4,16 +4,18 @@ Generado automaticamente. URL principal: `https://assets.mysoc.cl/`
 
 | Archivo | Tamano | URL |
 |---|---|---|
-| `icons/apps/google-docs.png` | 4.0K | https://assets.mysoc.cl/icons/apps/google-docs.png |
+| `icons/apps/anydesk-a-rustdesk-v2.png` | 12K | https://assets.mysoc.cl/icons/apps/anydesk-a-rustdesk-v2.png |
+| `icons/apps/anydesk-a-rustdesk.png` | 12K | https://assets.mysoc.cl/icons/apps/anydesk-a-rustdesk.png |
+| `icons/apps/google-docs.png` | 8.0K | https://assets.mysoc.cl/icons/apps/google-docs.png |
 | `icons/apps/google-drive.png` | 16K | https://assets.mysoc.cl/icons/apps/google-drive.png |
 | `icons/apps/google-sheets.png` | 8.0K | https://assets.mysoc.cl/icons/apps/google-sheets.png |
 | `icons/apps/google-slides.png` | 4.0K | https://assets.mysoc.cl/icons/apps/google-slides.png |
-| `icons/apps/macos.png` | 4.0K | https://assets.mysoc.cl/icons/apps/macos.png |
-| `icons/apps/microsoft-365.png` | 16K | https://assets.mysoc.cl/icons/apps/microsoft-365.png |
-| `icons/apps/onedrive.png` | 20K | https://assets.mysoc.cl/icons/apps/onedrive.png |
-| `icons/apps/outlook.png` | 16K | https://assets.mysoc.cl/icons/apps/outlook.png |
+| `icons/apps/macos.png` | 8.0K | https://assets.mysoc.cl/icons/apps/macos.png |
+| `icons/apps/microsoft-365.png` | 20K | https://assets.mysoc.cl/icons/apps/microsoft-365.png |
+| `icons/apps/onedrive.png` | 16K | https://assets.mysoc.cl/icons/apps/onedrive.png |
+| `icons/apps/outlook.png` | 20K | https://assets.mysoc.cl/icons/apps/outlook.png |
 | `icons/apps/pfsense.png` | 12K | https://assets.mysoc.cl/icons/apps/pfsense.png |
-| `icons/apps/rustdesk.png` | 8.0K | https://assets.mysoc.cl/icons/apps/rustdesk.png |
+| `icons/apps/rustdesk.png` | 12K | https://assets.mysoc.cl/icons/apps/rustdesk.png |
 | `icons/apps/sharepoint.png` | 20K | https://assets.mysoc.cl/icons/apps/sharepoint.png |
 | `icons/apps/square/google-docs.png` | 4.0K | https://assets.mysoc.cl/icons/apps/square/google-docs.png |
 | `icons/apps/square/google-drive.png` | 4.0K | https://assets.mysoc.cl/icons/apps/square/google-drive.png |
@@ -31,15 +33,16 @@ Generado automaticamente. URL principal: `https://assets.mysoc.cl/`
 | `icons/apps/square/unifi.png` | 8.0K | https://assets.mysoc.cl/icons/apps/square/unifi.png |
 | `icons/apps/square/windows.png` | 4.0K | https://assets.mysoc.cl/icons/apps/square/windows.png |
 | `icons/apps/square/wireguard.png` | 16K | https://assets.mysoc.cl/icons/apps/square/wireguard.png |
+| `icons/apps/svg-source/anydesk.svg` | 4.0K | https://assets.mysoc.cl/icons/apps/svg-source/anydesk.svg |
 | `icons/apps/svg-source/pfsense.svg` | 4.0K | https://assets.mysoc.cl/icons/apps/svg-source/pfsense.svg |
 | `icons/apps/svg-source/rustdesk.svg` | 4.0K | https://assets.mysoc.cl/icons/apps/svg-source/rustdesk.svg |
 | `icons/apps/svg-source/unifi.svg` | 4.0K | https://assets.mysoc.cl/icons/apps/svg-source/unifi.svg |
 | `icons/apps/svg-source/wireguard.svg` | 4.0K | https://assets.mysoc.cl/icons/apps/svg-source/wireguard.svg |
 | `icons/apps/teams.png` | 16K | https://assets.mysoc.cl/icons/apps/teams.png |
-| `icons/apps/ubuntu.png` | 16K | https://assets.mysoc.cl/icons/apps/ubuntu.png |
+| `icons/apps/ubuntu.png` | 20K | https://assets.mysoc.cl/icons/apps/ubuntu.png |
 | `icons/apps/unifi.png` | 8.0K | https://assets.mysoc.cl/icons/apps/unifi.png |
 | `icons/apps/windows.png` | 4.0K | https://assets.mysoc.cl/icons/apps/windows.png |
-| `icons/apps/wireguard.png` | 16K | https://assets.mysoc.cl/icons/apps/wireguard.png |
+| `icons/apps/wireguard.png` | 20K | https://assets.mysoc.cl/icons/apps/wireguard.png |
 | `icons/docs.png` | 4.0K | https://assets.mysoc.cl/icons/docs.png |
 | `icons/drive.png` | 4.0K | https://assets.mysoc.cl/icons/drive.png |
 | `icons/sheets.png` | 4.0K | https://assets.mysoc.cl/icons/sheets.png |
@@ -47,3 +50,4 @@ Generado automaticamente. URL principal: `https://assets.mysoc.cl/`
 | `icons/whatsapp-firma.png` | 4.0K | https://assets.mysoc.cl/icons/whatsapp-firma.png |
 | `logos/cabecera-mysoc-azul.png` | 52K | https://assets.mysoc.cl/logos/cabecera-mysoc-azul.png |
 | `logos/cabecera-mysoc.png` | 68K | https://assets.mysoc.cl/logos/cabecera-mysoc.png |
+| `logos/pronaturae-logo.png` | 32K | https://assets.mysoc.cl/logos/pronaturae-logo.png |
